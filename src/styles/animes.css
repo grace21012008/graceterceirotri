@@ -1,0 +1,65 @@
+.animes {
+    margin: 20px;
+}
+
+.animes h2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+
+    color: var(--font-light-color);
+}
+
+.animes p {
+    font-size: 23px;
+
+    color: var(--font-light-color);
+}
+
+/* anime panels */
+.anime {
+    margin: 10px;
+    padding: 20px;
+
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+
+    background-color: var(--background-element-color);
+}
+
+.anime h3 {
+    font-size: 40px;
+}
+
+.animes_panels {
+    margin-top: 40px;
+}
+
+.anime_panel {
+
+    display: flex;
+}
+
+.anime_panel .left_panel {
+    width: 90%;
+}
+
+.anime_panel .left_panel p {
+    font-size: 20px;
+
+    height: 100px;
+
+    margin-top: 53px;
+
+    color: var(--font-dark-color);
+}
+
+.anime_panel .right_panel {
+    width: 10%;
+}
+
+.anime_panel .right_panel img {
+    width: 150px;
+    margin-left: auto;
+
+    border-radius: 5px;
+}
